@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CaffeineCode</title>
+
+  <meta name="author" content="JJong">
+  <meta name="discription" content="...">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+  <!-- http://ogp.me/ -->
+  <!-- meta property="og:type" content="website">
+  <meta property="og:site_name" content="CaffeineCode">
+  <meta property="og:title" content="Build software better, together">
+  <meta property="og:description" content="CaffeineCode clone coding / CaffeineCode is where people build software. More than 31 million people use CaffeineCode to discover, fork, and contribute to over 100 million projects.">
+  <meta property="og:image" content="img/logo__CaffeineCode.png">
+  <meta property="og:url" content="https://CaffeineCode.com" -->
+
+  <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+  <!-- meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="CaffeineCode">
+  <meta property="twitter:title" content="Build software better, together">
+  <meta property="twitter:description" content="CaffeineCode clone coding / CaffeineCode is where people build software. More than 31 million people use CaffeineCode to discover, fork, and contribute to over 100 million projects.">
+  <meta property="twitter:image" content="img/logo__CaffeineCode.png">
+  <meta property="twitter:url" content="https://CaffeineCode.com" -->
+
+  <!-- link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" -->
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+
+  <!-- link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@latest/neodgm/style.css" -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@latest/neodgm_pro/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@latest/reset.css">
+  <link rel="stylesheet" href="css/welcome.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+<div class="body__container">
+  <!-- HEADER -->
+  <header class="section" id="header">
+    <div class="inner clearfix">
+      <div class="menu-group float--left">
+        <div class="logo">
+          <a href="#">CaffeineCode</a>
+        </div>
+        <ul class="main-menu" style="display: none">
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#rules">Rules</a></li>
+          <li><a href="#goal">goal</a></li>
+          <li><a href="#" onclick="alert('아직 구현 예정입니다... ^^')">Donation</a></li>
+          <!-- li><a href="#">목표</a></li -->
+        </ul>
+      </div>
+
+      <div class="sign-group float--right">
+        <div class="btn-group" id="login-needed" style="display: none">
+          <a href="login" class="btn sign-in">로그인</a>
+          <a href="join" class="btn btn--primary sign-up">회원가입</a>
+        </div>
+        <div class="btn-group" id="login-succeed" style="display: none">
+          <h3 id="login-id"></h3>
+          <a href="logout" class="btn logout">로그아웃</a>
+        </div>
+        <!-- form id="search-form" method="POST" action="">
+            <input type="text" class="input--text" placeholder="Search CaffeineCode" id="search">
+            <input type="submit" value="Submit">
+        </form -->
+        <ul class="sub-menu" style="display: none">
+          <li><a href="https://nine-selenium-086.notion.site/0013b6fe1eec420a80fd3ccffd6034b0" target="_blank">Notion(구)</a></li>
+          <li><a href="https://open.kakao.com/o/gJWywwke" target="_blank">오픈채팅방</a></li>
+          <!-- li><a href="#">요금</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Support</a></li -->
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <!--VISUAL-->
+  <section class="section section--visual">
+    <div class="inner">
+
+      <div class="summary">
+        <h2 class="summary__title">카페인&nbsp;코드에<br>오신&nbsp;것을&nbsp;환영합니다.</h2>
+        <p class="summary__description">자네... 우리와 함께 토이 프로젝트를 진행하지 않겠는가? <br> 여기는 말일쎄... 카페인으로부터 자네를 보호해줄 개발자 보호구역이라네!</p>
+      </div>
+
+      <!-- form id="sign-form" method="post" action="">
+          <ul>
+          <li><input class="input--text" type="text" placeholder="Pick a username"></li>
+          <li><input class="input--text" type="email" placeholder="Your email address"></li>
+          <li>
+              <input class="input--text" type="password" placeholder="Create a password">
+              <p class="caption">Use at least one letter, one numeral, and seven characters.</p>
+          </li>
+          <li>
+              <button class="btn btn--primary" type="submit">Sign up for CaffeineCode</button>
+              <p class="caption">By clicking "Sign up for CaffeineCode", you agree to our terms of service and privacy policy.
+              We'll occasionally send you account related emails.</p>
+          </li>
+          </ul>
+      </form -->
+
+      </div>
+  </section>
+
+  <!--ABOUT-->
+  <section class="section section--feature" id="about-us">
+
+    <div class="summary">
+      <h2 class="summary__title">소개</h2>
+      <p class="summary__description">CaffeineCode-CIC(Creator injuries custody)
+        <br>카페인코드-개발자보호구역에 오신 여러분을 환영합니다!
+        <br> 이곳은 포트폴리오 제작이 가능한
+        <br>토이 프로젝트를 진행하기 위한 커뮤니티입니다.</p>
+    </div>
+
+    <div class="video">
+      <div class="video-ratio">
+        <iframe width="520" height="293" src="https://www.youtube.com/embed/bZz6kFzXGwg?si=0rz0ykWARXYUMQiS"
+                frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="tiles">
+      <div class="inner">
+
+        <ul class="clearfix">
+          <li>
+            <div>열정</div>
+            <h3>과연 절여지는 것은?</h3>
+            <p>카페인에 절여지는 것은 나일지, <br>코드일지 열정을 불태울 인원 모집</p>
+          </li>
+          <li>
+            <div>자기계발</div>
+            <h3>아는 것과 경험은 다릅니다</h3>
+            <p>직접 경험을 통해 <br>본인을 한 단계 업그레이드!</p>
+          </li>
+          <li>
+            <div>협업</div>
+            <h3>처음부터 완벽할 수 없습니다.</h3>
+            <p>처음에는 우당탕탕일 수 있지만, <br>같이 협업하고 화합해 가는 모임</p>
+          </li>
+          <li>
+            <div>공유</div>
+            <h3>배움의 끝은 가르침이다</h3>
+            <p>본인의 지식과 노하우를 공유하여 <br>지식을 더욱 성숙시킬 수 있어요</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!--RULES-->
+  <section class="section section--rules" id="rules">
+    <div class="inner">
+
+      <div class="summary">
+        <h2 class="summary__title">규칙</h2>
+        <p class="summary__description">
+        <ol>
+          <li>온라인 모임 격주 1회 / 오프라인 모음 월 1회</li>
+          <li>타 프로젝트 홍보 제재, 타 커뮤니티 홍보 및 취업관련 리쿠르트는 운영진 통보 필수</li>
+          <li>운영진 판단하에 프로젝트에 의지가 없다고 판단되면 강제퇴장</li>
+          <ul>
+            <li>폭언, 욕설, PC, 정치적 발언 등 내 협업 분위기를 해치는 행위 퇴장</li>
+            <li>정당한 사유 없이 미참여시 (무응답 포함) 퇴장</li>
+          </ul>
+          <li>프로젝트를 쉬는 사유를 운영진에게 통보 필요</li>
+          <ul>
+            <li>Ex) 현업, 자격증, 시험 등 기타 천재지변</li>
+          </ul>
+          <li>연속으로 프로젝트를 2회 이상 (6개월) 지속되면 운영진과 대화 이후 결정</li>
+          <li>프로젝트를 1건이라도 끝냈다면 ‘눈팅’할 수 있는 자격 부여 </li>
+          <li>이전 프로젝트 포함 프로젝트에 어떤 형태로든 기여하신 분은 ban 리스트에서 제외</li>
+        </ol>
+        </p>
+      </div>
+
+      <!-- div id="map"></div -->
+
+      </div>
+  </section>
+
+  <!--GOAL-->
+  <section class="section section--feature" id="goal">
+
+    <div class="summary">
+      <h2 class="summary__title">목표</h2>
+      <p class="summary__description">
+        <br>마음의 상처를 입지 않도록 개발자의 멘탈을 보호하고<br>
+        서로 돕고 도움과 나눔이 자연스러운 문화를 만들어보려 합니다.<br>
+        상세 목표는 다음과 같습니다.<br>
+        <br><br><br>
+    </div>
+
+    <div class="tiles">
+      <div class="inner">
+
+        <ul class="clearfix">
+          <li>
+            <h3>첫째,</h3>
+            <p>토이 프로젝트에 대한 <br>열정과 의욕을 함께 공유</p>
+          </li>
+          <li>
+            <h3>둘째,</h3>
+            <p>몰입하고 몰두하는 열정을 나누는 문화</p>
+          </li>
+          <li>
+            <h3>셋째,</h3>
+            <p>가르치고 가르침 받는, <br>서로 나눔과 도움이 자연스러운 문화</p>
+          </li>
+          <li>
+            <h3>넷째,</h3>
+            <p>개인의 개발 능력 향상(백문이 불여일타)</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Join-->
+  <section class="section section--join">
+    <div class="inner">
+
+      <div class="card">
+        <div class="cell cell1">
+          <a class="btn btn--primary" href="join">CaffeineCode 회원가입</a>
+        </div>
+        <div class="cell cell2">
+          자네... 아직도 가입을 안 했는가?<br>어서 가입하게. 자네의 열정에 기름을 부어줄걸세!
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="section">
+    <div class="inner clearfix">
+
+      <ul class="site-links float--right">
+        <!-- li><a href="#">Contact&nbsp;CaffeineCode</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li -->
+      </ul>
+
+      <ul class="site-links float--left">
+        <li>© 2023 CaffeineCode.</li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+
+      <a class="logo" href="#">
+        <svg version="1.1"
+             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="32"
+             height="32"
+             viewBox="0 0 32 32"
+             fill="#ccc">
+          <!-- path fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path -->
+          <g><path style="opacity:1" fill="#111111" d="M 6.5,-0.5 C 12.5,-0.5 18.5,-0.5 24.5,-0.5C 25.7817,1.46447 27.115,3.46447 28.5,5.5C 28.2528,6.71335 27.5862,7.38002 26.5,7.5C 23.2319,6.17782 19.5652,5.51115 15.5,5.5C 11.4348,5.51115 7.76809,6.17782 4.5,7.5C 3.41383,7.38002 2.74716,6.71335 2.5,5.5C 3.88502,3.46447 5.21835,1.46447 6.5,-0.5 Z"/></g>
+          <g><path style="opacity:1" fill="#e7e4e4" d="M 26.5,7.5 C 24.8235,8.18342 24.1568,9.51676 24.5,11.5C 18.5,11.5 12.5,11.5 6.5,11.5C 6.5,10.8333 6.5,10.1667 6.5,9.5C 29.1667,8.83333 29.1667,8.16667 6.5,7.5C 5.83333,7.5 5.16667,7.5 4.5,7.5C 7.76809,6.17782 11.4348,5.51115 15.5,5.5C 19.5652,5.51115 23.2319,6.17782 26.5,7.5 Z"/></g>
+          <g><path style="opacity:1" fill="#b0b0b0" d="M 6.5,7.5 C 29.1667,8.16667 29.1667,8.83333 6.5,9.5C 6.5,8.83333 6.5,8.16667 6.5,7.5 Z"/></g>
+          <g><path style="opacity:1" fill="#7d4b0d" d="M 6.5,11.5 C 12.5,11.5 18.5,11.5 24.5,11.5C 24.8432,13.4832 24.1765,14.8166 22.5,15.5C 21.88,13.0233 20.88,13.0233 19.5,15.5C 18.1667,12.8333 16.8333,12.8333 15.5,15.5C 14.1667,12.8333 12.8333,12.8333 11.5,15.5C 10.12,13.0233 9.12002,13.0233 8.5,15.5C 6.82351,14.8166 6.15684,13.4832 6.5,11.5 Z"/></g>
+          <g><path style="opacity:0.997" fill="#060504" d="M 26.5,7.5 C 27.1031,12.6186 26.4364,17.2853 24.5,21.5C 24.8432,19.5168 24.1765,18.1834 22.5,17.5C 22.5,16.8333 22.5,16.1667 22.5,15.5C 24.1765,14.8166 24.8432,13.4832 24.5,11.5C 24.1568,9.51676 24.8235,8.18342 26.5,7.5 Z"/></g>
+          <g><path style="opacity:1" fill="#0a0403" d="M 4.5,7.5 C 5.16667,7.5 5.83333,7.5 6.5,7.5C 6.5,8.16667 6.5,8.83333 6.5,9.5C 6.5,10.1667 6.5,10.8333 6.5,11.5C 6.15684,13.4832 6.82351,14.8166 8.5,15.5C 8.5,16.1667 8.5,16.8333 8.5,17.5C 6.82351,18.1834 6.15684,19.5168 6.5,21.5C 4.56356,17.2853 3.8969,12.6186 4.5,7.5 Z"/></g>
+          <g><path style="opacity:1" fill="#3f2a13" d="M 22.5,15.5 C 22.5,16.1667 22.5,16.8333 22.5,17.5C 21.88,19.9767 20.88,19.9767 19.5,17.5C 18.1667,20.1667 16.8333,20.1667 15.5,17.5C 14.1667,20.1667 12.8333,20.1667 11.5,17.5C 10.12,19.9767 9.12002,19.9767 8.5,17.5C 8.5,16.8333 8.5,16.1667 8.5,15.5C 9.12002,13.0233 10.12,13.0233 11.5,15.5C 12.8333,12.8333 14.1667,12.8333 15.5,15.5C 16.8333,12.8333 18.1667,12.8333 19.5,15.5C 20.88,13.0233 21.88,13.0233 22.5,15.5 Z"/></g>
+          <g><path style="opacity:1" fill="#79490d" d="M 8.5,17.5 C 9.12002,19.9767 10.12,19.9767 11.5,17.5C 12.8333,20.1667 14.1667,20.1667 15.5,17.5C 16.8333,20.1667 18.1667,20.1667 19.5,17.5C 20.88,19.9767 21.88,19.9767 22.5,17.5C 24.1765,18.1834 24.8432,19.5168 24.5,21.5C 23.8333,21.5 23.1667,21.5 22.5,21.5C 17.8333,21.5 13.1667,21.5 8.5,21.5C 7.83333,21.5 7.16667,21.5 6.5,21.5C 6.15684,19.5168 6.82351,18.1834 8.5,17.5 Z"/></g>
+          <g><path style="opacity:0.999" fill="#000000" d="M 6.5,21.5 C 7.16667,21.5 7.83333,21.5 8.5,21.5C 8.5,22.1667 8.5,22.8333 8.5,23.5C 8.5,25.5 8.5,27.5 8.5,29.5C 6.63105,27.3647 5.96438,24.6981 6.5,21.5 Z"/></g>
+          <g><path style="opacity:1" fill="#b0b0b0" d="M 8.5,21.5 C 13.1667,21.5 17.8333,21.5 22.5,21.5C 22.5,22.1667 22.5,22.8333 22.5,23.5C 17.8333,23.5 13.1667,23.5 8.5,23.5C 8.5,22.8333 8.5,22.1667 8.5,21.5 Z"/></g>
+          <g><path style="opacity:1" fill="#000000" d="M 22.5,21.5 C 23.1667,21.5 23.8333,21.5 24.5,21.5C 25.0356,24.6981 24.369,27.3647 22.5,29.5C 22.5,27.5 22.5,25.5 22.5,23.5C 22.5,22.8333 22.5,22.1667 22.5,21.5 Z"/></g>
+          <g><path style="opacity:1" fill="#e5e5e5" d="M 8.5,23.5 C 13.1667,23.5 17.8333,23.5 22.5,23.5C 22.5,25.5 22.5,27.5 22.5,29.5C 17.8333,29.5 13.1667,29.5 8.5,29.5C 8.5,27.5 8.5,25.5 8.5,23.5 Z"/></g>
+          <g><path style="opacity:0.996" fill="#000000" d="M 8.5,29.5 C 13.1667,29.5 17.8333,29.5 22.5,29.5C 22.5,30.1667 22.5,30.8333 22.5,31.5C 17.8333,31.5 13.1667,31.5 8.5,31.5C 8.5,30.8333 8.5,30.1667 8.5,29.5 Z"/></g>
+        </svg>
+      </a>
+
+    </div>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"  data-a11y-animated-images="system" data-a11y-link-underlines="true">
+<head>
+    <meta charset="utf-8">
+    <title>Sign in to CaffeineCode</title>
+
+    <!--<meta name="selected-link" value="/login" data-turbo-transient>-->
+    <meta name="author" content="JJong">
+    <meta name="discription" content="...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@latest/neodgm_pro/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@latest/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="body__container">
+        <div class="logo">
+            <a href="/">CaffeineCode</a>
+        </div>
+
+        <!-- LOGIN -->
+        <h2>로그인</h2>
+        <form method="post" action="/login">
+            <div>
+                <label for="account">아이디 : </label>
+                <input type="text" id="account" name="account"/>
+            </div>
+            <br/>
+            <div>
+                <label for="password">비밀번호 : </label>
+                <input type="password" id="password" name="password"/>
+            </div>
+            <br/>
+            <button type="submit">로그인</button>
+        </form>
+    </div>
+</body>
+</html>
